@@ -2,6 +2,7 @@
 
 <head>
 <title>Federico Sarassola - UX/UI Designer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="Federico Sarassola">
 <meta itemprop="description" content="This is a Design Porfolio of a UX Designer">
@@ -21,75 +22,83 @@
 <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/909636151706865664/kGNYXG8k_400x400.jpg">
 
 <link rel="icon" href="img/ico.ico">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700,900|Zilla+Slab" rel="stylesheet">
 <link href="styles.css" rel="stylesheet">
 </head>
 
-<body class="container fade-in one">
+<body class="container">
 
-<nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="index.html">
-            <img src="img/ico.svg" width="45" alt="Heyfede">
-    </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="about.html">Sobre Mi</a>
-      <a class="nav-item nav-link" href="work.html">Trabajos</a>
-      <a class="nav-item nav-link" href="contact.html">Contacto</a>
-      <a class="nav-item nav-link" href="cv.pdf">CV</a>
-    </div>
-  </div>
+<nav class="nav navbar fixed-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img alt="Federico" src="img/ico.svg" height="40px">
+      </a>    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a class="active" href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">Sobre Mi</a></li>
+        <li><a href="work.html">Trabajos</a></li>        
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="cv.pdf">CV</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
 </nav>
+    
 <div class="row">
-<div class="col-md-8 offset-md-1 pres col-xs-12">
+<div class="col-lg-8 pres col-md-12">
     <h1 id="headline"> Hola! Mi nombre es Federico y soy un Diseñador Multimedia en Buenos Aires, Argentina. Amante del Diseño de experiencia de Usuario y las interfaces digitales. Actualmente soy Diseñador UX/UI en Accenture.</h1>
 </div>
-    <div class="col-md-2 bigf">
+    <div class="col-md-3 bigf">
     <img class="img-fluid" src="img/big-f.svg">
     </div>
 </div>
-<footer class="navbar container fixed-bottom">
+    
+<footer class="nav navbar navbar-fixed-bottom container">
     <span class="navbar-text">
-    Hecho con <i class="fa fa-heart"></i> & <i class="fa fa-coffee"></i> por <a href="#">Federico Sarassola</a> <i class="fa fa-laptop"></i>.
+    Hecho con <i class="fa fa-heart"></i> & <i class="fa fa-coffee"></i> por <a href="index.html">Federico Sarassola</a> <i class="fa fa-laptop"></i>.
     </span>
-    <div class="footer">
-    <a href="#">
+    <div class="navbar-right">
+    <a href="https://www.instagram.com/heyfe.de/">
         <span class="fa-stack">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
         </span>
     </a>
-    <a href="#">
+    <a href="https://twitter.com/heyfe_de">
         <span class="fa-stack">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
         </span>
     </a>
-    <a href="#">
+    <a href="https://www.behance.net/heyfede">
         <span class="fa-stack">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-behance fa-stack-1x fa-inverse"></i>
         </span>
     </a>
-    <a href="#">
+    <a href="https://dribbble.com/heyfede">
         <span class="fa-stack">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
         </span>
     </a>
     </div>
-</footer>    
-
+</footer> 
+   
 
 <script src="type-colors.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/7e0de39622.js"></script>
 </body>
 
